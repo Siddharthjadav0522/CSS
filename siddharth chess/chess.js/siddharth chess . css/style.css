@@ -1,0 +1,31 @@
+.chessbox{
+    width:960px ;
+    height:960px ;
+    border: 1px solid black;
+    margin: auto;
+    margin-top:20PX;
+}
+.black{
+    width: 120px;
+    height: 120px;
+    background: #4c5168;
+    text-align: center;
+    font-size: 90px;
+
+}
+.white{width: 120px;
+    height: 120px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 90px;
+
+}
+
+.chessbox-1{float: left;}
+.chessbox-2{float: left;}
+.chessbox-3{float: left;}
+.chessbox-4{float: left;}
+.chessbox-5{float: left;}
+.chessbox-6{float: left;}
+.chessbox-7{float: left;}
+.chessbox-8{float:right;}

@@ -1,0 +1,60 @@
+.loader{
+    height:300px;
+    width:300px;
+    position: absolute;
+    top: 100px;
+    /* left:500px; */
+    border-radius: 50%;
+    /* background-color: #818180; */
+    border-top:10px solid red;
+    border-left:10px solid black;
+    border-right:10px solid black;
+    border-bottom:10px solid black;
+    animation-name: ankitanimation;
+    animation-duration:1s;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    /* animation-direction:alternate-reverse; */
+    /* animation-direction:initial; */
+    /* animation: ankitanimation 2s ease-in 1s normal ease-in-out reverse; */
+}
+/* .loader img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+} */
+@keyframes ankitanimation {
+    0%{
+        /* background-color: #131310; */
+        /* transform: rotate(0deg); */
+        left:0px;
+        /* border-top: 10px solid rgb(255, 55, 0); */
+    }
+     /* 25%{
+        background-color: #12eb6c;
+         transform:rotate(90deg);
+         border-top: 10px solid blue;
+         left:300px;
+    }
+    50%{
+        background-color: #f42905; 
+        transform: rotate(180deg);
+        left:600px;
+        border-top: 10px solid rgb(0, 255, 17);
+
+    }
+    75%{
+        background-color: #92005a;
+         transform: rotate(270deg); 
+        left:900px; 
+        border-top: 10px solid rgb(5, 253, 253);
+
+    } */
+
+    100%{
+        /* background-color: #f42d05; */
+        transform: rotate(360deg);
+        /* left:1200px; */
+        border-top: 10px solid yellow;
+    }
+}
