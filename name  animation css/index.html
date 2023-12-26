@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+    *{
+        box-sizing:border-box ;
+    }
+    .main{
+        height:450px;
+        width:700px;
+        /* background-color: #fa8484; */
+        margin: 100px auto;
+        position: relative;
+        /* overflow: hidden; */
+    }
+    .one{
+        height: 180px;
+        width: 180px;
+        background-color: #f06400;
+        position: absolute;
+        top:270px;
+    }
+
+    .two{
+        height: 180px;
+        width: 180px;
+        background-color: #f06400;
+        position: absolute;
+        left:520px;
+    }
+    .three{
+        height:390px;
+        width:630px;
+        background-color: #fff;
+        position: absolute;
+        top:30px;
+        left:36px;
+    }
+    .s{
+        height: 60px;
+        width: 200px;
+        background-color: #010101;
+        color: white;
+        text-align: center;
+        font-size:50px;
+        position: absolute;
+        opacity:0;
+        top:0px;
+        left:0px;
+        transition:1s;
+        left:250px;
+        /* animation: ankit 3s ease-in 0s infinite normal; */
+    }
+    /* ----------------------------hover-------------------- */
+    .main:hover .s{
+        position:absolute;
+        top:200px;
+        opacity:1;
+        background:rgb(40, 227, 187);
+        color: #f06400;
+    }
+
+    /* -------------------------------animation----------------------- */
+    /* @keyframes ankit {
+        form{
+            left:0px;
+        }
+        to{
+            left:280px;
+            top:200px;
+            color: #f06400;
+            opacity: 1;
+        }
+    } */
+</style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="s">Siddhath</div>
+    </div>
+</body>
+</html>
